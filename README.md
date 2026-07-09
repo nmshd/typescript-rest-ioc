@@ -38,7 +38,7 @@ class HelloRestService {
 
   @Path(":name")
   @GET
-  sayHello( @PathParam('name') name: string): string {
+  sayHello(@PathParam("name") name: string): string {
     return this.helloService.sayHello(name);
   }
 }
