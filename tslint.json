@@ -1,31 +1,12 @@
 {
-  "extends": [
-    "tslint:recommended",
-    "tslint-config-prettier"
-  ],
+  "extends": ["tslint:recommended", "tslint-config-prettier"],
   "rules": {
-    "no-console": [
-      true,
-      "log",
-      "error"
-    ],
-    "semicolon": [
-      true,
-      "always"
-    ],
-    "array-type": [
-      true,
-      "generic"
-    ],
+    "no-console": [true, "log", "error"],
+    "semicolon": [true, "always"],
+    "array-type": [true, "generic"],
     "no-string-literal": false,
-    "quotemark": [
-      true,
-      "single"
-    ],
-    "object-literal-shorthand": [
-      true,
-      "never"
-    ],
+    "quotemark": [true, "single"],
+    "object-literal-shorthand": [true, "never"],
     "interface-name": false,
     "max-classes-per-file": false,
     "ban-types": false,
